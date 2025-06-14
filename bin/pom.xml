@@ -23,12 +23,12 @@
         <!-- Spring -->
         <!-- For framework compatibility, refer to the Spring Boot Dependencies BOM -->
         <!-- https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-dependencies/build.gradle -->
-        <spring-framework.version>5.3.18</spring-framework.version>
+        <spring-framework.version>6.1.14</spring-framework.version>
 
         <!-- Web dependencies -->
         <!-- Version update should also be done in wro.xml, petclinic.less and static resources: htmlHeader.tag and footer.tag-->
-        <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
-        <webjars-jquery-ui.version>1.12.1</webjars-jquery-ui.version>
+        <webjars-bootstrap.version>5.0.0</webjars-bootstrap.version>
+        <webjars-jquery-ui.version>1.13.2</webjars-jquery-ui.version>
         <webjars-jquery.version>3.5.1</webjars-jquery.version>
         <wro4j.version>1.8.0</wro4j.version> <!-- wro4j 1.0.0 requires Java 9 -->
 
@@ -45,11 +45,11 @@
         <hibernate.version>5.6.0.Final</hibernate.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <hsqldb.version>2.5.2</hsqldb.version>
-        <h2database.version>1.4.200</h2database.version>
+        <h2database.version>2.2.220</h2database.version>
 
         <!-- Logging -->
         <slf4j.version>1.7.32</slf4j.version>
-        <logback.version>1.2.6</logback.version>
+        <logback.version>1.3.15</logback.version>
 
         <!-- Test -->
         <assertj.version>3.21.0</assertj.version>
